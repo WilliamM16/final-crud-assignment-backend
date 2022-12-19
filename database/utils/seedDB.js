@@ -4,11 +4,12 @@ const seedDB = async () => {
 	const dummyEmployee = await Employee.create({
 		firstname: "Max",
 		lastname: "Fence",
-		department: "finance"
+		department: "Finance"
 	});
 	const dummyEmployee2 = await Employee.create({
 		firstname: "Sonia",
-		lastname: "Ann"
+		lastname: "Ann",
+		department:"Media"
 	});
 
 	const dummyTask = await Task.create({
